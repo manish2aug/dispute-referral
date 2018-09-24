@@ -3,7 +3,7 @@
   <process id="disputeReferralProcess" name="ELRC Dispute Process" isExecutable="true">
     <documentation>A process for dispute addressal</documentation>
     <startEvent id="startevent1" name="Start"></startEvent>
-    <userTask id="reportingPartyComplain" name="Aaggrieved Party Complain" activiti:assignee="kermit">
+    <userTask id="reportingPartyComplain" name="Aaggrieved Party Complain" activiti:formKey="complain_form">
       <documentation>The user task used for a person to lodge the complain</documentation>
     </userTask>
     <sequenceFlow id="flow1" sourceRef="startevent1" targetRef="reportingPartyComplain"></sequenceFlow>
@@ -28,7 +28,7 @@
 </html>]]></activiti:string>
         </activiti:field>
         <activiti:field name="cc">
-          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com ]]></activiti:string>
+          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com]]></activiti:string>
         </activiti:field>
       </extensionElements>
     </serviceTask>
@@ -48,7 +48,7 @@
           <activiti:string><![CDATA[Dispute Acknowledgement]]></activiti:string>
         </activiti:field>
         <activiti:field name="cc">
-          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com ]]></activiti:string>
+          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com]]></activiti:string>
         </activiti:field>
         <activiti:field name="html">
           <activiti:string><![CDATA[<html>
@@ -79,7 +79,7 @@
           <activiti:string><![CDATA[Date allocation for dispute]]></activiti:string>
         </activiti:field>
         <activiti:field name="cc">
-          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com ]]></activiti:string>
+          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com]]></activiti:string>
         </activiti:field>
         <activiti:field name="html">
           <activiti:string><![CDATA[<html>
@@ -137,7 +137,7 @@
           <activiti:string><![CDATA[Please check & confirm]]></activiti:string>
         </activiti:field>
         <activiti:field name="cc">
-          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com ]]></activiti:string>
+          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com]]></activiti:string>
         </activiti:field>
         <activiti:field name="html">
           <activiti:string><![CDATA[<html>
@@ -178,7 +178,7 @@
           <activiti:string><![CDATA[Dispute Info]]></activiti:string>
         </activiti:field>
         <activiti:field name="cc">
-          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com ]]></activiti:string>
+          <activiti:string><![CDATA[parmar.hiiren@gmail.com, vivesh06@gmail.com]]></activiti:string>
         </activiti:field>
         <activiti:field name="html">
           <activiti:string><![CDATA[<html>
